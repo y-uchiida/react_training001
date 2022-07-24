@@ -4,6 +4,7 @@ import {EventHandling} from './components/EventHandling'
 import {SetCSSStyles} from './components/SetCSSStyles'
 import {MessageFromProps} from './components/MessageFromProps'
 import {ChildrenOfProps} from './components/ChildrenOfProps'
+import {ClickCount} from './components/ClickCount'
 
 /* render に渡す関数を宣言、これをコンポーネントとして扱う */
 /* export をつけて宣言することで、別ファイルから読み込むことができるようになる */
@@ -23,6 +24,8 @@ export const App = () => {
       <ChildrenOfProps fontSize="24px">
         <div>親コンポーネント側で記述したdiv要素</div>
       </ChildrenOfProps>
+
+      <ClickCount></ClickCount>
     </>
   );
 };
