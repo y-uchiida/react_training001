@@ -1,3 +1,5 @@
+import React from 'react'
+
 /* CSS Module の読み込み
  * import classes from '<対応するCSSモジュールファイル>'
  * 実際にクラスを適用する場合は、classes.<クラス名>を記述する

@@ -1,12 +1,15 @@
-import {HelloFromReact} from './components/HelloFromReact'
-import {FunctionInComponent} from './components/FunctionInComponent'
-import {EventHandling} from './components/EventHandling'
-import {SetCSSStyles} from './components/SetCSSStyles'
-import {MessageFromProps} from './components/MessageFromProps'
-import {ChildrenOfProps} from './components/ChildrenOfProps'
-import {ClickCount} from './components/ClickCount'
-import {CSSModules} from './components/CSSModules'
-import {StyledJsx} from './components/StyledJsx'
+import React from 'react'
+
+import {HelloFromReact} from './components/HelloFromReact';
+import {FunctionInComponent} from './components/FunctionInComponent';
+import {EventHandling} from './components/EventHandling';
+import {SetCSSStyles} from './components/SetCSSStyles';
+import {MessageFromProps} from './components/MessageFromProps';
+import {ChildrenOfProps} from './components/ChildrenOfProps';
+import {ClickCount} from './components/ClickCount';
+import {CSSModules} from './components/CSSModules';
+import {StyledJsx} from './components/StyledJsx';
+import {TailwindCss} from './components/TailwindCss';
 
 /* render に渡す関数を宣言、これをコンポーネントとして扱う */
 /* export をつけて宣言することで、別ファイルから読み込むことができるようになる */
@@ -31,6 +34,7 @@ export const App = () => {
 
       <CSSModules></CSSModules>
       <StyledJsx></StyledJsx>
+      <TailwindCss></TailwindCss>
     </>
   );
 };

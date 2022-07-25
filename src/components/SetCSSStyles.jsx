@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const SetCSSStyles = () => {
   /* CSSスタイル用のオブジェクト */
   const contentStyle = {

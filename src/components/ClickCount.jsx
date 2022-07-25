@@ -1,3 +1,5 @@
+import React from 'react'
+
 /* 状態を管理するためのstate を生成するuseState を読み込む */
 import { useState } from "react";
 

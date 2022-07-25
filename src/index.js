@@ -1,3 +1,5 @@
+import React from 'react'
+
 /* レンダリングの機能などを持ったDOMのライブラリ？ */
 import ReactDOM from 'react-dom/client';
 

@@ -1,3 +1,5 @@
+import React from 'react'
+
 /* props children
  * 呼び出し元のコンポーネントが記述した子要素は、props のchildren プロパティに入っている
  */

@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const EventHandling = () => {
   /* ボタンのクリックイベント用の関数を作成  */
   const onClickButton = () => {
