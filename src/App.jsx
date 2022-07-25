@@ -5,6 +5,7 @@ import {SetCSSStyles} from './components/SetCSSStyles'
 import {MessageFromProps} from './components/MessageFromProps'
 import {ChildrenOfProps} from './components/ChildrenOfProps'
 import {ClickCount} from './components/ClickCount'
+import {CSSModules} from './components/CSSModules'
 
 /* render に渡す関数を宣言、これをコンポーネントとして扱う */
 /* export をつけて宣言することで、別ファイルから読み込むことができるようになる */
@@ -26,6 +27,8 @@ export const App = () => {
       </ChildrenOfProps>
 
       <ClickCount></ClickCount>
+
+      <CSSModules></CSSModules>
     </>
   );
 };
